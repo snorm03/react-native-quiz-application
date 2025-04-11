@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import { Text, TouchableOpacity, ScrollView, StyleSheet } from "react-native";
 import { ButtonGroup } from "react-native-elements";
 
+//Resources Used:
+//https://reactnativeelements.com/docs/components/buttongroup
+//https://dev.to/ramonak/react-how-to-create-a-custom-button-group-component-in-5-minutes-3lfd
+
 const QuestionScreen = ({ route, navigation }) => {
   const { data = [], index = 0, answers = [] } = route.params ?? {};
 
